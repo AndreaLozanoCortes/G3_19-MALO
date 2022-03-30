@@ -13,17 +13,15 @@ background-attachment: fixed;
    background-attachment: fixed;
 }
 
-#pedido{
+.color-fondo{
     background-color: gainsboro;
 }
 
 #encabezado{
-    
     text-align: center;
     margin: 40px auto;
 }
 
 .imagen{
-    
    width:100px ;
 }
