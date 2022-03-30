@@ -1,0 +1,29 @@
+#home{
+ background: url(https://st3.depositphotos.com/3666135/37560/i/450/depositphotos_375608592-stock-photo-white-wood-texture-background-blank.jpg );
+ background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: fixed;
+    
+}
+
+#info{ 
+    background: url(https://st3.depositphotos.com/3666135/37560/i/450/depositphotos_375608592-stock-photo-white-wood-texture-background-blank.jpg );
+    background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+}
+
+#pedido{
+    background-color: gainsboro;
+}
+
+#encabezado{
+    
+    text-align: center;
+    margin: 40px auto;
+}
+
+.imagen{
+    
+   width:100px ;
+}
