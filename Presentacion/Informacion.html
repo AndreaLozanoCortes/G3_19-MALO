@@ -37,10 +37,10 @@
                       API'S
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Socios Negocio</a></li>
-                      <li><a class="dropdown-item" href="#">Materiales</a></li>
+                      <li><a class="dropdown-item" href="/Forms/Socio.html">Socios Negocio</a></li>
+                      <li><a class="dropdown-item" href="/Forms/Material.html">Materiales</a></li>
                       <li><a class="dropdown-item" href="/Forms/Pedido.html">Pedidos Proveedor</a></li>
-                      <li><a class="dropdown-item" href="#">Facturas Cliente</a></li>
+                      <li><a class="dropdown-item" href="/Forms/Factura.html">Facturas Cliente</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -52,57 +52,77 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
  
-    <div id="encabezado">
-      <h2>INTEGRANTES</h2>
+    <div class="encabezado">
+      <h2><b>INTEGRANTES</b></h2>
     </div>
 
-  <!--Tabla de integrantes -->
-    <div class="table table-responsive">
-        <table id="tabla" class="table table-hover">
-          <thead id="encabezado">
-                <tr>
-                    <th>
-                        <h4>NOMBRE</h4>
-                    </th>
-                    <th>
-                        <h4>NÚMERO DE CUENTA</h4>
-                    </th>
-                    <th>
-                      <h4>ENTIDAD</h>
-                  </th>
-                  <th>
-                    <h4>DESCRIPCIÓN DE API'S REST</h>
-                </th>
-                </tr>
-            </thead>
-            <tbody >
-                <th>
-                    <h5>Andrea Nikolle Lozano Cortés</h5>
-                    <h5>Estefany Gisell Pérez Rodríguez</h5>
-                    <h5>Kristian Eduardo Elvir Blanco</h5>
-                    <h5>Valeria Sophia Motiño Carias</h5>
-                </th>
-                <th>
-                    <h5>20191002243</h5>
-                    <h5>20191004017</h5>
-                    <h5>20191004114</h5>
-                    <h5>20191002708</h5>
-                </th>
-                <th>
-                  <h5>ma_socios_negocio</h5>
-                  <h5>ma_materiales</h5>
-                  <h5>ma_pedidos_proveedor</h5>
-                  <h5>ma_facturas_cliente</h5>
+  <!--Tabla de integrantes-->
+        <table class="table">
+          <thead id="titulo"> 
+            <tr>
+              <th scope="col"> <b>#</b> </th>
+              <th scope="col">
+                <h4><b>ESTUDIANTE</b></h4>
               </th>
-              <th>
-                <h5>descripcion...</h5>
-                <h5>descripcion...</h5>
-                <h5>descripcion...</h5>
-                <h5>descripcion...</h5>
-            </th>
-            </tbody>
+              <th scope="col">
+                <h4><b>FORMULARIO</b></h>
+              </th>
+              <th scope="col">      
+                <h4><b>EXPLICACIÓN DE FORMULARIO</b></h></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="alinear" scope="row">1</th>
+              <td class="alinear">
+                <h5>Andrea Nikolle Lozano Cortés</h5>
+              </td>
+              <td class="alinear">
+                <h5>Socios Negocio</h5>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <th class="alinear" scope="row">2</th>
+              <td class="alinear">
+                <h5 >Estefany Gisell Pérez Rodríguez</h5>
+              </td>
+              <td class="alinear">
+                <h5 >Materiales</h5>
+              </td>
+              <td>
+
+              </td>
+            </tr>
+            <tr>
+              <th class="alinear" scope="row">3</th>
+              <td class="alinear">
+                <h5 >Kristian Eduardo Elvir Blanco</h5>
+              </td>
+              <td class="alinear">
+                <h5 >Pedidos Proveedor</h5>
+              </td>
+              <td>
+                <h5>La funcion CargarPedidos muestra en pantalla los datos existentes almacenados en la base de datos, la funcion CargarPedido trae mediante el ID el registro especifico, la funcion AgregarPedido permite ingresar los datos del pedido y agregarlo a la base de datos, la funcion ActualizarPedido permite editar algun dato de los registros, la funcion EliminarPedido elimina el pedido mediante un ID especifico</h5>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="alinear" scope="row">4</th>
+              <td class="alinear">
+                <h5 >Valeria Sophia Motiño Carias</h5>
+              </td>
+              <td class="alinear">
+                <h5 >Facturas Cliente</h5>
+              </td >
+              <td>
+
+              </td>
+            </tr>
+          </tbody>
         </table>
     </div>
-
+    
 </body>
 </html>

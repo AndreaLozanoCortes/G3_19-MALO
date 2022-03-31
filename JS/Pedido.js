@@ -70,7 +70,7 @@ function CargarPedido(idpedido){
     });
 }
     
-    function AgregarPedido(){
+function AgregarPedido(){
         var datospedido={
             ID_SOCIO:$('#ID_SOCIO').val(),
             FECHA_PEDIDO:$('#FECHA_PEDIDO').val(),
